@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+}
+
+.game-container {
+    margin: 0px auto;
+}
+  
+p {
+    margin: 10px 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.game-map {
+    position: relative;
+}
+  
+div.layer, 
+div.layer div {
+    position: absolute;
+  }
+
+.default .floor {
+    background-color: white;
+  }
+  
+.default .wall {
+    background-color: black;
+}
+
+
+.goal {
+    background-color: red;
+  }
+.player {
+    background-color: pink;
+}
+  
+#success-msg {
+    opacity: 0;
+    transition: opacity 0.2s;
+    position: absolute;
+    padding: 5px 5px;
+    background-color: black;
+    color: white;
+}
+  
+body.success #success-msg {
+    opacity: 1;
+    transition: opacity 0.2;
+  
+}
+ 
+#map-and-controls {
+    display: flex;
+    justify-content: center;
+}
+ 
+  
